@@ -11,13 +11,13 @@ fun main() {
     val lista = Array(fila.size + pilha.size) { 0 }
 
     println("Insira os valores do primeiro vetor:")
-    fila.forEachIndexed { i, _ ->
+    fila.forEachIndexed { i, j ->
         print("[$i] - ")
         fila[i] = entrada.nextInt()
     }
 
     println("Insira os valores do segundo vetor:")
-    pilha.forEachIndexed { i, _ ->
+    pilha.forEachIndexed { i, j ->
         print("[$i] - ")
         pilha[i] = entrada.nextInt()
     }
