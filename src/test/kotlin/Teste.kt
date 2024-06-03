@@ -32,5 +32,8 @@ class Funcionalidades {
 
         val embaralhar = Embaralhar("Jotaro")
         Assertions.assertEquals(embaralhar::class, String::class)
+
+        val horario = converterHora("14:54")
+        Assertions.assertEquals(horario, "2:54PM")
     }
 }
