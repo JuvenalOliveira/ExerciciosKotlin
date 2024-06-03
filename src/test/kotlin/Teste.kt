@@ -23,5 +23,8 @@ class Funcionalidades {
 
         val x = modificar(100)
         Assertions.assertEquals(x, 3)
+
+        val y =  inverterNumero(123)
+        Assertions.assertEquals(y, 321)
     }
 }
