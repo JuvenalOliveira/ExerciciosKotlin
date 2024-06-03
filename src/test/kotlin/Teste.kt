@@ -26,5 +26,8 @@ class Funcionalidades {
 
         val y =  inverterNumero(123)
         Assertions.assertEquals(y, 321)
+
+        val data = formatarData("25/11/2024")
+        Assertions.assertEquals(data, "25/Novembro/2024")
     }
 }
