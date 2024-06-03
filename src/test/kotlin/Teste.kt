@@ -11,6 +11,9 @@ class Funcionalidades {
 
         val x = somaImposto(0.05,1000)
         Assertions.assertEquals(x, 1050.0)
+
+        val y = valorPagamento(1000.0, 5)
+        Assertions.assertEquals(y, 1080.0)
     }
 
     @Test
