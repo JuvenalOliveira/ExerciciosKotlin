@@ -20,5 +20,8 @@ class Funcionalidades {
     fun checar() {
         val response = checar(1)
         Assertions.assertEquals(response, 'P')
+
+        val x = modificar(100)
+        Assertions.assertEquals(x, 3)
     }
 }
