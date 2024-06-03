@@ -1,4 +1,5 @@
 import org.example.ExerciciosFuncao.*
+import org.example.ExerciciosComString.*
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
@@ -17,5 +18,9 @@ class Funcionalidades {
     fun checar() {
         val response = checar(1)
         Assertions.assertEquals(response, 'P')
+
+        val x  = comparar("oi!","tudo bem?")
+        Assertions.assertEquals(x, false)
+
     }
 }
