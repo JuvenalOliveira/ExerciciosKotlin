@@ -24,10 +24,13 @@ class Funcionalidades {
         val x = modificar(100)
         Assertions.assertEquals(x, 3)
 
-        val y =  inverterNumero(123)
+        val y = inverterNumero(123)
         Assertions.assertEquals(y, 321)
 
         val data = formatarData("25/11/2024")
         Assertions.assertEquals(data, "25/Novembro/2024")
+
+        val embaralhar = Embaralhar("Jotaro")
+        Assertions.assertEquals(embaralhar::class, String::class)
     }
 }
