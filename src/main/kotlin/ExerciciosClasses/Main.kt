@@ -11,4 +11,3 @@ fun main(){
     val retangulo = ExercicioClasse3(5,10)
     retangulo.exercicio3Retornar()
     retangulo.exercicio3Imprimir()
-}
