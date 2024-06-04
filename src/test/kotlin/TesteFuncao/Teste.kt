@@ -1,3 +1,5 @@
+package TesteFuncao
+
 import org.example.ExerciciosFuncao.*
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
