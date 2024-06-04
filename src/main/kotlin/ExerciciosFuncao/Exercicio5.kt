@@ -1,8 +1,12 @@
 package org.example.ExerciciosFuncao
+import java.util.Scanner
 
 fun main(){
-    val x = 1000
-    val y = 0.05
+    val entrada = Scanner(System.`in`)
+    println("Insira um valor Inteiro")
+    val x = entrada.nextInt()
+    println("Insira o valor da taxa")
+    val y = entrada.nextDouble() / 100
 
     somaImposto(y, x)
 }
