@@ -1,7 +1,7 @@
 package org.example.ExerciciosClasses
 import java.util.*
 
-class Exercicio2(var lado:Double){
+class ExercicioClasse2(var lado:Double){
 
 
     fun exercicio2AlterarLado():Double {

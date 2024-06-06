@@ -1,6 +1,6 @@
 package org.example.ExerciciosClasses
 
-class Exercicio1(val cor: String, val raio: Double, val material: String) {
+class ExercicioClasse1(val cor: String, val raio: Double, val material: String) {
     val x = 2 * Math.PI * raio
 
     fun exercicio1Mensagem() {
